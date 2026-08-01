@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhishek Rauniyar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="logo" data-scroll="#home">Abhishek Rauniyar</a>
+
+      <div class="nav-links desktop-only">
+        <a href="#home" data-scroll="#home">Home</a>
+        <a href="#about" data-scroll="#about">About</a>
+        <a href="#contact" data-scroll="#contact">Contact</a>
+        <button id="themeToggleDesktop" class="theme-toggle" aria-label="Toggle theme">
+          <span class="icon-moon">🌙</span>
+          <span class="icon-sun">☀️</span>
+        </button>
+      </div>
+
+      <div class="mobile-controls mobile-only">
+        <button id="themeToggleMobile" class="theme-toggle" aria-label="Toggle theme">
+          <span class="icon-moon">🌙</span>
+          <span class="icon-sun">☀️</span>
+        </button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Open main menu">
+          <span class="icon-menu">☰</span>
+          <span class="icon-close">✕</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="#home" data-scroll="#home">Home</a>
+      <a href="#about" data-scroll="#about">About</a>
+      <a href="#contact" data-scroll="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-content">
+        <h2 class="hero-greeting fade-in-down">Hello, I'm</h2>
+        <h1 class="hero-name fade-in-down delay-150">Abhishek Rauniyar</h1>
+        <div class="hero-typed fade-in-down delay-300">
+          <span id="typedText"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-desc fade-in-down delay-450">
+          A student passionate about coding, entrepreneurship, and creativity.
+          Building real-world projects and exploring full-stack development to make a difference.
+        </p>
+        <div class="hero-buttons fade-in-down delay-600">
+          <a href="#about" class="btn btn-primary" data-scroll="#about">Learn About Me</a>
+          <a href="#contact" class="btn btn-outline" data-scroll="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap fade-in-down delay-300">
+        <img src="images/abhishek.jpeg" alt="Abhishek Rauniyar" class="hero-photo">
+      </div>
+    </div>
+    <button id="scrollDown" class="scroll-down" aria-label="Scroll down">↓</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header about-animate">
+        <h2>About Me</h2>
+        <div class="divider"></div>
+        <p>Get to know more about me, my background, and what I do.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-animate">
+          <h3>Who am I?</h3>
+          <p>
+            Hi! I'm Abhishek, a student with a big passion for coding, entrepreneurship,
+            and creativity. I'm learning programming languages like C++ and Python, and I'm also
+            exploring full-stack development to build real-world projects and sharpen my skills.
+          </p>
+          <p>
+            Besides coding, I love playing games, which helps me think more creatively and come up
+            with new ideas for projects and problem-solving. Games inspire me to see challenges
+            differently and find smarter solutions.
+          </p>
+          <p>
+            In the future, I want to start my own tech company and build solutions that make a real
+            difference in people's lives. I'm excited to keep learning, growing, and creating new
+            things that push technology forward.
+          </p>
+
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span>
+              <span>Abhishek Rauniyar</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 6-10 7L2 6"></path></svg></span>
+              <span>abhisekrauniyar2080@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg></span>
+              <span>Student at Shikhshadeep Secondary</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+              <span>Siddhartha Chowk, Biratnagar-9, Nepal</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-animate">
+          <div class="achievement-card">
+            <h3>Academic Achievement</h3>
+
+            <div class="progress-block">
+              <div class="progress-label">
+                <span>BLE (Grade 8)</span>
+                <span>3.70 GPA</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="92.5%"></div>
+              </div>
+              <p class="progress-note">Koshi Vidya Mandir School</p>
+            </div>
+
+            <div class="progress-block">
+              <div class="progress-label">
+                <span>SEE (Class 10)</span>
+                <span>3.86 GPA</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" data-width="96.5%"></div>
+              </div>
+              <p class="progress-note">Shikhshadeep Secondary School</p>
+            </div>
+
+            <h3 class="competencies-title">Professional Competencies</h3>
+            <div class="competencies-grid">
+              <div class="competency">Leadership</div>
+              <div class="competency">Teamwork</div>
+              <div class="competency">Adaptability</div>
+              <div class="competency">Continuous Learning</div>
+              <div class="competency">Effective Writing</div>
+              <div class="competency">Verbal Communication</div>
+              <div class="competency">Analytical Thinking</div>
+              <div class="competency">Decision Making</div>
+              <div class="competency">Attention to Detail</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header contact-animate">
+        <h2>Get In Touch</h2>
+        <div class="divider"></div>
+        <p>Have a question or want to connect? Feel free to contact me!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-animate">
+          <div class="contact-card">
+            <h3>Contact Information</h3>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 6-10 7L2 6"></path></svg></span>
+                <div>
+                  <h4>Email</h4>
+                  <p>abhisekrauniyar2080@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                <div>
+                  <h4>Location</h4>
+                  <p>Siddhartha Chowk, Biratnagar-9, Nepal</p>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="follow-title">Follow Me</h3>
+            <div class="social-links">
+              <a href="https://www.facebook.com/abhisek.rauniyar.2025" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"></path></svg>
+              </a>
+              <a href="https://www.instagram.com/fr_abhishekk" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-animate">
+          <div class="contact-card">
+            <h3>Send Me a Message</h3>
+
+            <div id="successMsg" class="alert alert-success" style="display:none;">
+              <p class="alert-title">Thank you for your message!</p>
+              <p>I'll get back to you as soon as possible.</p>
+            </div>
+            <div id="errorMsg" class="alert alert-error" style="display:none;">
+              <p class="alert-title">Oops! Something went wrong.</p>
+              <p>Please try again or contact me directly via email.</p>
+            </div>
+
+            <form id="contactForm" data-formspree-id="mojgolyq">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <button type="submit" id="submitBtn" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo" data-scroll="#home">Abhishek Rauniyar</a>
+      <p class="footer-copy">© <span id="year"></span> Abhishek | All Rights Reserved.</p>
+      <nav class="footer-nav">
+        <a href="#home" data-scroll="#home">Home</a>
+        <a href="#about" data-scroll="#about">About</a>
+        <a href="#contact" data-scroll="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
